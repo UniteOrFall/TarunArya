@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Tarun Arya</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='stylesheet' type='text/css' href='css/style.css'/>
+</head>
+<body>
+    <div class="navbar box-shadow animated fadeInDown fast">
+        <div class="flex">
+            <div class="logo">
+                <img src="https://d33wubrfki0l68.cloudfront.net/888fbb2213a827ef3572f2484a1cd0b33741e4ae/ef844/img/logo.png"/>
+            </div>
+            <div class="links">
+                <span class="link"><a href="index.html">Work</a></span>
+                <span class="link"><a href='bio.html'>Bio</a></span>
+                <span class="link active"><a href="contact.html" target="_blank">Contact</a></span>
+            </div>
+        </div>
+    </div><!-- End .navbar -->
+    <div class="header box-shadow animated fadeIn">
+            <div class="about contact">
+                    <h4 style="margin-left:30px; font-family:'Playfair Display';font-size:16px;">Contact me</h4>
+                    <p style="margin-left:30px;">
+                    My email <span><a style="cursor:default;">aryanimator@gmail.com</a></span><span style="font-size:40px;">,</span> 
+                    Call at <span><a style="cursor:default;">9538-118-018</a></span><span style="font-size: 40px;">,</span> Me on <span><a href="https://www.linkedin.com/in/tarun-arya-33218117" target="_blank">LinkedIn</a></span><span style="font-size: 40px;">,</span>
+                    My work <span><a href="https://www.behance.net/arya18" target="_blank">Behance 1</a></span> <span>(Design)</span><span style="font-size: 40px;">,</span> <span><a href="https://www.behance.net/aryanimator" target="_blank">Behance 2</a></span> <span style="font: weight 500;">(Personal)</span><span style="font-size: 40px;">,</span> or <span><a href="files/resume.pdf" target="_blank">Resume...</a></span>
+                </p>
+            </div>
+        </div>
+    </div><!-- End .header -->
+    <div class="main box-shadow animated fadeIn box">
+        <div class="container">
+            <h2 style="margin-bottom:0px !important;color:#7f7f7f;font-family:'Playfair Display';">Or</h1>
+            <p style="margin-top:0px;font-size: 16px;font-weight: bold;font-family:'Playfair Display';">Message me</p>
+            <form action="https://formspree.io/prashantvashisht223@gmail.com" onSubmit="Sub()" method="POST" target="_blank">
+             <input type="text" id="fname" name="name" placeholder="Name *" required>
+              <input type="email" id="from" name="email" placeholder="Email *" required>
+          
+              <textarea id="subject" name="message" placeholder="Message *" style="height:200px" required></textarea>
+          
+              <button type="submit" class="btn-4" id="send">Contact</button>
+          
+            </form>
+          </div>
+        </div>
+        
+       
+    <div class="footer">
+        <img src="img/navbar-logo.png"/>  
+    </div>
+    <script>
+        var form = document.querySelector("form");
+        function Sub(){
+
+            form.submit();
+            form.reset();
+        }
+        
+        </script>
+</body>
+</html>
